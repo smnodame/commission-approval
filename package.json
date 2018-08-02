@@ -1,0 +1,17 @@
+{
+  "name": "post-app",
+  "version": "1.0.0",
+  "description": "for learning Angular and Django restful API",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+	"http-server": "^0.9.0"
+},
+  "scripts": {
+	"start": "http-server ./app -a localhost -p 8000 -c-1"
+  },
+  "author": "Boonprakit Chaikaew",
+  "license": "ISC"
+}
